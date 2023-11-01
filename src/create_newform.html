@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="h-screen w-screen">
+
+  <div class="h-16 bg-navigate-bar flex items-center justify-between"> <!-- Navigation bar -->
+    <div class="ml-10 font-bold">LOGO HERE</div>
+    <input class="h-7 rounded-full bg-white w-1/3 ml-16 px-3 focus:outline-none" placeholder="Search">
+    </input>
+    <div class="flex justify-center w-1/4 ">
+      <div class="text-main-text-color font-bold pl-7 w-1/2 flex align-middle justify-end">#USER_ICON</div>
+      <div class="text-main-text-color font-bold pr-7 pl-2 w-1/2 flex align-middle justify-start">Tên user</div>
+    </div>
+  </div>
+  <div class="h-full flex justify-stretch">
+
+    <div class="h-full grid grid-cols-1 w-1/12 bg-base-color content-stretch"> <!-- Left bar -->
+      <div class="w-full flex flex-col justify-center align-middle">
+        <div class="w-full h-fit flex justify-center bg-main-text-color text-white border-b border-black">Bảng tin</div>
+        <div class="w-full h-fit flex justify-center bg-primary-text-color text-white border-b border-black">Diễn đàn
+        </div>
+        <div class="w-full h-fit flex justify-center bg-primary-text-color text-white border-b border-black">Lịch sử
+        </div>
+        <div class="w-full h-fit flex justify-center bg-primary-text-color text-white border-b border-black">Hỗ trợ
+        </div>
+      </div>
+      <div class=" w-full mt-80 h-fit flex items-end  justify-center bg-primary-text-color text-white">About us</div>
+    </div>
+
+    <div class="h-full w-11/12 flex flex-row py-5"> <!-- Right panel -->
+      <div class="h-full w-full rounded-3xl ml-5 mr-5 bg-base-color flex flex-col justify-between">
+        <div
+          class="w-full h-16 rounded-t-3xl text-main-text-color text-3xl flex items-center justify-center font-extrabold">
+          Đăng ký tổ chức sự kiện
+        </div>
+        <div class="w-full h-124 flex flex-col  bg-base-color rounded-b-3xl pl-8 pr-4">
+          <div class="w-full h-16 flex flex-row justify-between">
+            <div class="w-2/5 h-full flex items-center text-main-text-color font-bold text-xl">Tên sự kiện</div>
+            <textarea class="w-3/5 h-3/4 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+          <div class="w-full h-16 flex flex-row justify-between">
+            <div class="w-2/5 h-full flex items-center text-main-text-color font-bold text-xl">Thời gian diễn ra</div>
+            <textarea class="w-3/5 h-3/4 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+          <div class="w-full h-16 flex flex-row justify-between">
+            <div class="w-2/5 h-full flex items-center text-main-text-color font-bold text-xl">Địa điểm</div>
+            <textarea class="w-3/5 h-3/4 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+          <div class="w-full h-16 flex flex-row justify-between">
+            <div class="w-2/5 h-full flex items-center text-main-text-color font-bold text-xl">Đối tượng</div>
+            <textarea class="w-3/5 h-3/4 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+          <div class="w-full h-16 flex flex-row justify-between">
+            <div class="w-2/5 h-full flex items-center text-main-text-color font-bold text-xl">Mô tả</div>
+            <textarea class="w-3/5 h-3/4 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+          <div class="w-full h-44 flex flex-col justify-between mt-5 pr-6">
+            <div class="w-full h-1/5 flex items-center text-main-text-color font-bold text-xl">Nội dung sự kiện</div>
+            <textarea class="w-full h-4/5 bg-form-color rounded-2xl m-3 focus:outline-none p-4 overflow-hidden resize-none"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
